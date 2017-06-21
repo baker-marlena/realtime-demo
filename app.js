@@ -1,13 +1,13 @@
 // configure the Firebase database
 var config = {
-    apiKey: 'AIzaSyA0NrJ78SCRTnk1P_dwO9YQq4Onzzw9Bc8',
-    databaseURL: "https://playground-dc257.firebaseio.com"
+    apiKey: YOUR VALUE HERE,
+    databaseURL: YOUR URL HERE
   };
 
-// initalize the dtatabase
+// initalize the database
 firebase.initializeApp(config);
 
-// create a reference to the datatabase
+// create a reference to the database
 const database = firebase.database();
 
 $("#create-button").click(sessionStart);
